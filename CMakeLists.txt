@@ -17,7 +17,7 @@ find_package(catkin REQUIRED COMPONENTS
 ################################################
 ## Declare ROS dynamic reconfigure parameters ##
 ################################################
-generate_dynamic_reconfigure_options(cfg/example.cfg)
+generate_dynamic_reconfigure_options(cfg/Example.cfg)
 
 ###################################
 ## catkin specific configuration ##
