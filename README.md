@@ -30,4 +30,4 @@ $> rosrun dynamic_reconfigure_group_issue dynamic_reconfigure_server
 [ INFO] [1616676614.801850468]: Reconfigure Request via groups: 4.000000
 ```
 
-This inconsistency is only present at initialization, because we notice that once the value to be reconfigured has been modified, both methods provide the same (and good) value.
+This inconsistency is only present at initialization because we notice that once the value to be reconfigured has been modified, both methods provide the same (and good) value.
