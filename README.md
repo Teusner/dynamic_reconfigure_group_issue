@@ -1,5 +1,11 @@
 # Issue with dynamic_reconfigure
-Minimal example of a problem encountered with dynamic_reconfigure. The problem occurs when the callback function is called for parameters belonging to a group. 
+Minimal example of a problem encountered with dynamic_reconfigure. The problem occurs when the callback function is called for parameters belonging to a group.
+
+## Configuration
+
+This issue was encountered using :
+* Ubuntu 18.04
+* ROS melodic (version 1.14.10)
 
 ## Issue
 
