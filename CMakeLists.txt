@@ -31,3 +31,7 @@ catkin_package()
 include_directories(
   ${catkin_INCLUDE_DIRS}
 )
+
+add_executable(dynamic_reconfigure_server src/main.cpp)
+target_link_libraries(dynamic_reconfigure_server ${catkin_LIBRARIES})
+add_dependencies(dynamic_reconfigure_server ${PROJECT_NAME}_gencfg)
